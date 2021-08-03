@@ -188,6 +188,8 @@ func getSecondData() ([]*Data, error) {
 
 // GetData queries both endpoints and retrieves the data
 func (a *api) GetData() ([]*Data, error) {
+	// for future releases the functions to get data from the first
+	// and second enpoint could be executed concurrently
 	firstEndpointData, err := getFirstData()
 	if err != nil {
 		return nil, err

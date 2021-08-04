@@ -11,5 +11,5 @@ To run the e2e test:
 Bugs:
 1. The relevance computation is not working as expected
 
-TODOS:
+todos:
 1. Add unit tests by creating a mock client (this can't be properly completed until the relevance computation is properly created) 

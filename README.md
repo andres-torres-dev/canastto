@@ -12,4 +12,4 @@ Bugs:
 1. The relevance computation is not working as expected
 
 todos:
-1. Add unit tests by creating a mock client (this can't be properly completed until the relevance computation is properly created) 
+1. Add unit tests by creating a mock client (this can't be properly completed until the relevance computation is fixed) 
